@@ -1,0 +1,73 @@
+.settings-box {
+    position: fixed;
+    left: -200px;
+    top: 20%;
+    width: 200px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.settings-box .toggle-settings {
+    position: absolute;
+    width: 40px;
+    right: -40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 8px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.settings-box .settings-container {
+    padding: 0rem 0.5rem;
+}
+
+.settings-box .settings-container .option-box {
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.settings-box .settings-container .option-box h4 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.settings-box .settings-container .option-box .colors-list {
+    list-style: none;
+    padding: 0;
+}
+
+.settings-box .settings-container .option-box .colors-list li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.settings-box .settings-container .option-box .colors-list .active-color {
+    border: 1.5px solid #222;
+}
+
+.settings-box .settings-container .option-box i {
+    margin: 0rem 0.7rem;
+    cursor: pointer;
+}
+
+.settings-box .settings-container .reset-options {
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    display: block;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.open {
+    left: 0px;
+}
